@@ -7,6 +7,8 @@ available at https://github.com/petertodd/bitcoin/tree/replace-by-fee-v0.11.0
 
 Requirements: Python3 (python-bitcoinlib included in repo as subtree)
 
+You will need to enable txindex=1 in your bitcoin.conf file.  
+Pruning must also be disabled.
 
 Bump Fee
 ========
